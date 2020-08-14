@@ -1,4 +1,8 @@
 # J2M
+
+I forked this so I could minify and keep using it for drafts actions and such, to build a new minified version, just run `node minify.js`. The output will overwrite whatever is currently in `J2M.min.js`.
+
+
 ## JIRA to MarkDown text format converter
 Convert from JIRA text formatting to GitHub Flavored MarkDown and back again. Just because I got tired of reformatting text between GitHub (PR's) and JIRA.
 

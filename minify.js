@@ -7,4 +7,4 @@ const minified = babel.transform(code, {
 	comments: false
 });
 
-fs.writeFileSync("./J2m.min.js", minified.code);
+fs.writeFileSync("./J2M.min.js", minified.code);
