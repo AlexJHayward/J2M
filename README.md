@@ -1,6 +1,6 @@
 # J2M
 
-I forked this so I could minify and keep using it for drafts actions and such, to build a new minified version, just run `node minify.js`. The output will overwrite whatever is currently in `J2M.min.js`.
+I forked this so I could adjust the way that numbered lists are formatted.
 
 
 ## JIRA to MarkDown text format converter

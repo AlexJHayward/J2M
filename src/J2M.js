@@ -164,7 +164,7 @@
 		});
 
 		// multi-level numbered list
-		input = input.replace(/^(\s+)1. (.*)$/gm, function (match, level, content) {
+		input = input.replace(/^(\s*)\d. (.*)$/gm, function (match, level, content) {
 			var len = 2;
 			if (level.length > 1) {
 				len = parseInt(level.length / 4) + 2;
